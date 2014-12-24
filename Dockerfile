@@ -12,7 +12,7 @@ ENV        PYTHONPATH=/redbot
 
 
 # Install python requirements
-RUN        apt-get install -y python-setuptools && RUN easy_install thor
+RUN        apt-get install -y python-setuptools && easy_install thor
 
 
 ADD        . /redbot
